@@ -37,11 +37,6 @@ For AWS use below command
 sudo usermod -a -G docker ubuntu
 ```
 
-For Azure use below command
-```bash
-sudo usermod -a -G docker azureuser
-```
-
 # Restart Ubuntu VM
 ```bash
 sudo reboot
