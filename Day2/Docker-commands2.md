@@ -9,4 +9,6 @@ docker network ls
 docker network create --help
 docker container run -d --name new_nginx --network my_app_net nginx
 docker network inspect my_app_net
+docker run -d --network host --name my_nginx nginx
+docker run --rm -dit --network none --name no-net-alpine alpine:latest ash
 ```
