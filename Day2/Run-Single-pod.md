@@ -13,5 +13,5 @@ Step 4: You should see pod created message
 Step 5: run below commands
 kubectl get pod
 kubeclt describe pod pod1
-kubectl delete pod
+kubectl delete pod1
 ```
