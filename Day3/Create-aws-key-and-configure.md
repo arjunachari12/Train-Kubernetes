@@ -13,12 +13,16 @@
 ![image](https://github.com/arjunachari12/Train-Kubernetes/assets/68580129/86b57fad-f2f0-46df-89bb-06412cc19b3c)
 
 # Execute below command in terminal and copy Access Key and Secret from the above result
+```
 aws configure
+```
+```
 example:
 AWS Access Key ID [None]: XXXXXXXX
 AWS Secret Access Key [None]: XXXXX
 Default region name [None]: ap-south-1
 Default output format [None]:
+```
 
 
 
