@@ -12,6 +12,7 @@ https://github.com/arjunachari12/k8s-learn/blob/main/pod3-service.yml
 
 ## run below commands
 ```
+kubectl create -f pod3-service.yml
 kubectl get svc
 minikube service helloworld-service --url
 kubectl describe svc helloworld-service
